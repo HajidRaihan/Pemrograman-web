@@ -1,9 +1,7 @@
 body{
 	background-image: url(Asset/img/background1.jpg);
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-  background-size: cover;
+  	background-size: 100%;
 	background-color: #212833;
 }
 
