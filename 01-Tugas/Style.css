@@ -1,0 +1,65 @@
+body{
+	background-image: url(Asset/img/background1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+  background-size: cover;
+	background-color: #212833;
+}
+
+}
+
+.contact{
+	text-align: center;
+	color: navajowhite;
+}
+
+#profile{
+	padding: 100px 15px;
+	text-align: center;
+}
+.header img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	object-fit: cover;
+
+}
+
+.col input{
+	width: 50%;
+}
+
+.mb-3: {
+	width: 500px;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.center{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+.card{
+	background-color: transparent;
+	color: white;
+}
+
+
+
+
+.col-md-4{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 20%;
+
+}
