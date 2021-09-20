@@ -20,6 +20,7 @@
    			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ms-auto">
+					<li class="nav-item"><a class="nav-link"href="#home">Home</a></li>
 					<li class="nav-item"><a class="nav-link"href="#profile">Profile</a></li>
 					<li class="nav-item"><a class="nav-link"href="#project">Project</a></li>
 					<li class="nav-item"><a class="nav-link"href="#contact">contact</a></li>
@@ -31,171 +32,201 @@
 
 	
 
-	<!-- Profile -->
-	<div class= "container ps-5" id="profile">
-		<div class="header">
-			<img src="Asset/img/img_avatar.png" alt="avatar" class="center">
-			<h1 style="color: aliceblue; padding-top: 30px; font-weight: bold;">Hajid Raihan</h1>
-			<h3 style="color: aliceblue;">Student</h2>		
-			<h5 style="color: aliceblue;">Department of Information Systems<br>Faculty of Mathematics and Natural Sciences, Hasanuddin University</h5>
+	<!-- Home -->
+	<section id="home">
+		<div class= "ps-5">
+			<div class="header">
+				<img src="Asset/img/img_avatar.png" alt="avatar" class="center">
+				<h1 style="color: aliceblue; padding-top: 30px; font-weight: bold;">Hajid Raihan</h1>
+				<h3 style="color: aliceblue;">Student</h3>		
+				<h5 style="color: aliceblue;">Department of Information Systems<br>Faculty of Mathematics and Natural Sciences, Hasanuddin University</h5>
+			</div>
 		</div>
-	</div>
-					
-	<!-- Project -->
-	<br><br><br><br><br><br><br><br><br>
-	<h2 style="color: aliceblue; text-align: center;" id="project">Project</h2>
-	<div class=" container-fluid row pt-4">
-  		<div class="col-sm-6">
-    		<div class="card">
-    			<img src="Asset/img/card1.jpg" class="card-img-top">
-      			<div class="card-body">
-        			<h5 class="card-title">Special title treatment</h5>
-        			<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        			
-      			</div>
-    		</div>
-  		</div>
-	  	<div class="col-sm-6">
-	    	<div class="card">
-	    		<img src="Asset/img/card2.jpg" class="card-img-top">
-	      		<div class="card-body">
-	        		<h5 class="card-title">Special title treatment</h5>
-	        		<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-	        		
-	      		</div>
-	    	</div>
-	  	</div>
-	</div>
-
-	<div class="container-fluid row pt-4">
-  		<div class="col-sm-6">
-    		<div class="card">
-    			<img src="Asset/img/card3.jpg" class="card-img-top">
-      			<div class="card-body">
-        			<h5 class="card-title">Special title treatment</h5>
-        			<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        			
-      			</div>
-    		</div>
-  		</div>
-	  	<div class="col-sm-6">
-	    	<div class="card">
-	    		<img src="Asset/img/card4.jpg" class="card-img-top">
-	      		<div class="card-body">
-	        		<h5 class="card-title">Special title treatment</h5>
-	        		<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-	        		
-	      		</div>
-	    	</div>
-	  	</div>
-	</div>
-
-	<br><br><br>
-
+	</section>
 	
-	<!-- Contact -->
-	<form class="container pt-4" id="contact">
 
-		<h1 style="text-align: center; color: ghostwhite;">Contact Me</h1>
-		<br><br>
-		
- 		<div class="row">
- 			<div class="container column pt-4">
- 				<div class="card mb-3" style="max-width: 540px; background-color: #314057;">
-					<div class="row g-0">
-				    	<div class="col-md-4">
-				      		<img src="Asset/img/email-icon.png" style="width:80px">
-				    	</div>
-				    	<div class="col-md-8">
-				      		<div class="card-body">
-				        		<h1 class="card-title">Email</h1>
-				        		<p class="card-text">hajidraihan@gmail.com</p>
-				      		</div>
-				   		</div>
+	<!-- About -->
+	<section id="profile">
+		<div class="container pt-5 pb-5">
+			<div class="row pt-5">
+				<div class="col-sm-12 col-md-6 ps-5">
+					<img src="Asset/img/profile.png" id="about_image">
+				</div>
+				<div class="col-sm-12 col-md-6 pt-5">
+					<div id="about_description" class="pt-3">
+						<h1 style="color:aliceblue;">About Me</h1>
+						<p>Hello, saya Hajid Raihan seorang mahasiswa dari Universitas Hasanuddin. Saya mengambil jurusan Sistem Informasi di Fakultas Matematika dan Ilmu Pengetahuan Alam. Saya lahir di Parepare pada tanggal 31 juli 2002. Sekarang saya tinggal di Kabupaten Barru, Kecemataan balusu, Kelurahan Takkalasi. </p>
 					</div>
-				</div>	
-				<div class="card mb-3" style="max-width: 540px; background-color: #314057;">
-					<div class="row g-0">
-				    	<div class="col-md-4">
-				      		<img src="Asset/img/ig-icon.png" style="width: 80px;">
-				    	</div>
-				    	<div class="col-md-8">
-				      		<div class="card-body">
-				        		<h1 class="card-title">Instagram</h1>
-				        		<p class="card-text">@raihanhjid</p>
-				      		</div>
-				   		</div>
+					
+					<div class="pt-3">
+						<!-- Button trigger modal -->
+					    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">More Information</button>
+					    <!-- Modal -->
+					    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					        <div class="modal-dialog">
+					         	<div class="modal-content">
+				            		<div class="modal-header">
+				                   		<h5 class="modal-title" id="staticBackdropLabel">Contact Me</h5>
+				                   		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                 		</div>
+					            	<div class="modal-body">E-mail : hajidraihan@gmail.com</div>
+					              		<div class="modal-body">Telp. : 082342635439</div>
+					               			<div class="modal-footer">
+					                   			<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+					              			</div>
+					               		</div>
+					           		</div>
+					  	     	</div>
+					        </div>
+					    </div>
 					</div>
-				</div>	
-				<div class="card mb-3" style="max-width: 540px; background-color: #314057;">
-					<div class="row g-0">
-				    	<div class="col-md-4">
-				      		<img src="Asset/img/whatsapp-icon.png" style="width:80px">
-				    	</div>
-				    	<div class="col-md-8">
-				      		<div class="card-body">
-				        		<h1 class="card-title">Whatsapp</h1>
-				        		<p class="card-text">+62 821-5263-5439</p>
-				      		</div>
-				   		</div>
-					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+					
+
+	<!-- Project -->
+	<section id="project">
+		<div class="container pt-5 pb-5">
+			<div class="row text-center">
+				<div class="col">
+					<h1 style="color: aliceblue">My Project</h1>
 				</div>	
 			</div>
-
- 			<div class="column">
- 				<div class="mb-3">
-					<label  class="form-label" style="color: white;">First Name</label>
-					<input class="form-control" type="text" style=" background-color: transparent; color:ghostwhite;">
-				</div>
-
-				<div class="mb-3">
-					<label  class="form-label" style="color: white;">Last Name</label>
-					<input class="form-control" type="text" style=" background-color: transparent; color: ghostwhite;">
-				</div>
-
-				<div class="mb-3">
-		    		<label class="form-label" style="color: white;">Email address</label>
-		    		<input type="email" class="form-control" aria-describedby="emailHelp" style="background-color: transparent; color: ghostwhite;">
-		    		<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+			<div class="row pt-5">
+		  		<div class="col-sm-6">
+		    		<div class="card">
+		    			<img src="Asset/img/card1.jpg" class="card-img-top">
+		      			<div class="card-body">
+		        			<h5 class="card-title">Special title treatment</h5>
+		        			<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		      			</div>
+		    		</div>
+		  		</div>
+			  	<div class="col-sm-6">
+			    	<div class="card">
+			    		<img src="Asset/img/card2.jpg" class="card-img-top">
+			      		<div class="card-body">
+			        		<h5 class="card-title">Special title treatment</h5>
+				        		<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			      		</div>
+			    	</div>
 			  	</div>
+			</div>
+			<div class="row pt-4">
+		  		<div class="col-sm-6">
+		    		<div class="card">
+		    			<img src="Asset/img/card3.jpg" class="card-img-top">
+		      			<div class="card-body">
+		        			<h5 class="card-title">Special title treatment</h5>
+		        			<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		      			</div>
+		    		</div>
+		  		</div>
+			  	<div class="col-sm-6">
+			    	<div class="card">
+			    		<img src="Asset/img/card4.jpg" class="card-img-top">
+			      		<div class="card-body">
+			        		<h5 class="card-title">Special title treatment</h5>
+			        		<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			      		</div>
+			    	</div>
+			  	</div>
+			</div>
+		</div>
+	</section>
+	
 
-				<div class="mb-3">
-		  			<label class="form-label" style="color: white;">Your Massage</label>
-		  			<textarea class="form-control" rows="3" style="background-color: transparent; color:ghostwhite;"></textarea>
+	
+
+	<!-- Contact -->
+	<section id="contact">
+		<form class="container pt-5 pb-5">
+			<div class="row text-center">
+				<div class="col">
+					<h1 style="color: ghostwhite;">Contact Me</h1>
+				</div>			
+			</div>		
+	 		<div class="row pt-4">
+	 			<div class="container col-sm-12 col-md-6 pt-3">
+	 				<div class="card mb-3" style="max-width: 540px; background-color: #00204f;">
+						<div class="row g-0">
+					    	<div class="col-md-4">
+					      		<img src="Asset/img/email-icon.png" style="width:80px">
+					    	</div>
+					    	<div class="col-md-8">
+					      		<div class="card-body">
+					        		<h1 class="card-title">Email</h1>
+					        		<p class="card-text">hajidraihan@gmail.com</p>
+					      		</div>
+					   		</div>
+						</div>
+					</div>	
+					<div class="card mb-3" style="max-width: 540px; background-color: #00204f">
+						<div class="row g-0">
+					    	<div class="col-md-4">
+					      		<img src="Asset/img/ig-icon.png" style="width: 80px;">
+					    	</div>
+					    	<div class="col-md-8">
+					      		<div class="card-body">
+					        		<h1 class="card-title">Instagram</h1>
+					        		<p class="card-text">@raihanhjid</p>
+					      		</div>
+					   		</div>
+						</div>
+					</div>	
+					<div class="card mb-3" style="max-width: 540px; background-color: #00204f;">
+						<div class="row g-0">
+					    	<div class="col-md-4">
+					      		<img src="Asset/img/whatsapp-icon.png" style="width:80px">
+					    	</div>
+					    	<div class="col-md-8">
+					      		<div class="card-body">
+					        		<h1 class="card-title">Whatsapp</h1>
+					        		<p class="card-text">+62 821-5263-5439</p>
+					      		</div>
+					   		</div>
+						</div>
+					</div>
 				</div>
 
-				<button type="button" class="btn btn-secondary" style="width: 100%; background-color: #314057; border-color: #314057;">Send Massage</button>
+	 			<div class="col-sm-12 col-md-6 pt-4">
+	 				<div class="mb-3">
+						<input class="form-control" type="text" style=" background-color: transparent; color:ghostwhite;" placeholder="First Name">
+					</div>
 
- 			</div>			
- 		</div> 				  			
-	</form>
+					<div class="mb-3">
+						<input class="form-control" type="text" style=" background-color: transparent; color: ghostwhite;" placeholder="Last Name">
+					</div>
 
+					<div class="mb-3">
+			    		<input type="email" class="form-control" aria-describedby="emailHelp" style="background-color: transparent; color: ghostwhite;" placeholder="Email">
+			    		<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+				  	</div>
 
+					<div class="mb-3">
+			  			<textarea class="form-control" rows="3" id="massage"style="background-color: transparent; color: ghostwhite;" placeholder="Your Massage"></textarea>
+					</div>
 
-	<div class="container">
-		<!-- Button trigger modal -->
-	    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ini modal!!</button>
-	    <!-- Modal -->
-	        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-	          	<div class="modal-dialog">
-	               	<div class="modal-content">
-	              		<div class="modal-header">
-	                   		<h5 class="modal-title" id="staticBackdropLabel">Contact Me</h5>
-	                   		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-	                 		</div>
-	            	<div class="modal-body">E-mail : hajidraihan@gmail.com</div>
-	              		<div class="modal-body">Telp. : 082342635439</div>
-	               			<div class="modal-footer">
-	                   			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-	              			</div>
-	               		</div>
-	           		</div>
-	           	</div>
-		</div>
+					<button type="button" class="btn btn-primary" style="">Send Massage</button>
+
+	 			</div>			
+	 		</div> 				  			
+		</form>
+	</section>
+	
 
 
 
-	<br><br><br><br><br><br><br><br><br>
+	
+			
+
+
+
 
 	<!-- <script href="Asset/JS/bootstrap.bundle.min.js"></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>

@@ -1,18 +1,16 @@
 body{
+	background-color: #080c1f;
+	font-family: sans-serif;
+}
+#home	{
 	background-image: url(Asset/img/background1.jpg);
-	background-repeat: no-repeat;
-  	background-size: 100%;
-	background-color: #212833;
+	background-position: center;
+  background-size: cover;
 }
 
-}
 
-.contact{
-	text-align: center;
-	color: navajowhite;
-}
 
-#profile{
+#home{
 	padding: 100px 15px;
 	text-align: center;
 }
@@ -23,14 +21,32 @@ body{
 	object-fit: cover;
 
 }
+#massage{
+	width: 100%;
+	height: 123px;
+}
 
+.center{
+	display: block;
+  margin-left: auto;
+ 	margin-right: auto;
+ 	width: 50%;
+}
 .col input{
 	width: 50%;
 }
 
+.form-control{
+	background-color: transparent; 
+	color:ghostwhite;
+}
 .mb-3: {
 	width: 500px;
 
+}
+.btn{
+	background-color: #2036a1; 
+	border-color: #2036a1;
 }
 
 .column {
@@ -38,26 +54,21 @@ body{
   width: 50%;
 }
 
-.center{
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%;
-}
 
 .card{
 	background-color: transparent;
 	color: white;
 }
 
-
-
-
 .col-md-4{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
+	margin: auto;
 	width: 20%;
 
+}
+#about_image{
+	width: 400px;
+	height: 400px;
+}
+#about_description{
+	color: aliceblue;
 }
