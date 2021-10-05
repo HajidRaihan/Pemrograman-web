@@ -1,0 +1,16 @@
+body{
+	background-color: #080c1f;
+}
+#header{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: aliceblue;
+}
+#input-item{
+	background-color: transparent;
+	color: aliceblue;
+}
+.list-style{
+	color: aliceblue;
+	font-size: 20px;
+}
